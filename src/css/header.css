@@ -23,6 +23,7 @@ body {
   top: 0;
   width: 100%;
   z-index: var(--z-index-navbar);
+  border-bottom: 1px solid var(--navbar-border-color);
 }
 
 .navbar a {
@@ -47,8 +48,7 @@ body {
 
 .navbar-brand .navbar-item.title {
   align-self: center;
-  color: var(--navbar-font-color);
-  font-family: "Comfortaa", sans-serif;
+  color: var(--color-8b8685);
   font-size: 1rem;
   line-height: 1;
   position: relative;
@@ -322,10 +322,6 @@ body {
   .navbar-end .navbar-item.search {
     flex: 0 1 20rem;
     padding-left: 0;
-  }
-
-  .navbar-item .icon img {
-    filter: invert(100%);
   }
 
   .navbar-dropdown {

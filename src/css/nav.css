@@ -47,6 +47,7 @@
   position: relative;
   top: var(--toolbar-height);
   height: var(--nav-height);
+  border-right: 1px solid var(--nav-border-color);
 }
 
 @media screen and (min-width: 769px) {
@@ -168,7 +169,7 @@
 
 .nav-item-toggle {
   background: transparent url(../img/octicons-16.svg#view-triangle-right) no-repeat center / 100% 100%;
-  opacity: 0.25;
+  /* opacity: 0.25; */
   border: none;
   outline: none;
   line-height: inherit;

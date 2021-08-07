@@ -17,8 +17,8 @@
     "defaults"
   ],
   "devDependencies": {
-    "@octokit/rest": "~18.0",
     "@asciidoctor/core": "~2.2",
+    "@octokit/rest": "~18.0",
     "autoprefixer": "~10.0",
     "browser-pack-flat": "~3.4",
     "browserify": "~17.0",
@@ -63,5 +63,9 @@
   },
   "volta": {
     "node": "10.24.1"
+  },
+  "dependencies": {
+    "typeface-arimo": "^1.1.13",
+    "typeface-cousine": "^1.1.13"
   }
 }

@@ -47,7 +47,6 @@ footer.footer {
 
 .footer-brand figcaption {
   color: var(--footer-link-font-color);
-  font-family: "Comfortaa", sans-serif;
   font-size: calc(36 / var(--rem-base) * 1rem);
   line-height: 1;
   position: relative;

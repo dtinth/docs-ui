@@ -33,6 +33,10 @@
   margin: 1rem 0 0;
 }
 
+.doc.doc h1 {
+  color: var(--heading-h1-font-color);
+}
+
 .doc > h1.page:first-child {
   font-size: calc(36 / var(--rem-base) * 1rem);
   margin: 1.5rem 0;
@@ -227,8 +231,8 @@
   .doc table.tableblock {
     /*
     box-shadow: 5px 0 0 var(--color-white);
-    */
     box-shadow: 0 0 0.25rem 0.25rem var(--color-white);
+    */
   }
 
   .doc .content table.tableblock {
@@ -898,6 +902,7 @@
 }
 
 .doc .conum[data-value] {
+  color: var(--color-d7fc70);
   border: 1px solid currentColor;
   border-radius: 100%;
   display: inline-block;
