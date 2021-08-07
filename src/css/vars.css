@@ -8,9 +8,9 @@
   --color-8b8685: #8b8685;
   --color-e9e8e7: #e9e8e7;
   --color-d7fc70: #d7fc70;
-  --color-ffffbb: #ffffbb;
-  --color-ffffaa: #ffffaa;
-  --color-bbeeff: #bbeeff;
+  --color-ffffbb: #ffb;
+  --color-ffffaa: #ffa;
+  --color-bbeeff: #bef;
 
   /* colors */
   --color-brand-primary: var(--color-d7fc70);
@@ -109,7 +109,6 @@
   --heading-font-weight: normal;
   --alt-heading-font-weight: var(--body-font-weight-bold);
   --section-divider-color: var(--panel-border-color);
-
   --link-font-color: var(--color-ffffbb);
   --link_hover-font-color: var(--color-ffffaa);
   --link_unresolved-font-color: #f00;
