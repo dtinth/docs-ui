@@ -60,5 +60,8 @@
     "typeface-roboto-mono": "^1.1",
     "vinyl-buffer": "~1.0",
     "vinyl-fs": "~3.0"
+  },
+  "volta": {
+    "node": "10.24.1"
   }
 }
