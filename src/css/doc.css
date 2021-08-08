@@ -1006,3 +1006,7 @@
   hyphens: none;
   word-wrap: normal;
 }
+
+:root[data-screenshot-mode="1"] .doc {
+  max-width: 640px;
+}
