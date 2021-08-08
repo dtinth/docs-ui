@@ -11,6 +11,7 @@
   --color-ffffbb: #ffb;
   --color-ffffaa: #ffa;
   --color-bbeeff: #bef;
+  --color-febfea: #febfea;
 
   /* colors */
   --color-brand-primary: var(--color-d7fc70);
@@ -105,8 +106,10 @@
   --doc-margin: 0 auto;
   --doc-margin--desktop: 0 2rem;
   --heading-font-color: var(--color-d7fc70);
+  --heading-font-weight: bold;
   --heading-h1-font-color: var(--color-bbeeff);
-  --heading-font-weight: normal;
+  --heading-h1-font-weight: normal;
+  --heading-h3-font-color: var(--color-febfea);
   --alt-heading-font-weight: var(--body-font-weight-bold);
   --section-divider-color: var(--panel-border-color);
   --link-font-color: var(--color-ffffbb);

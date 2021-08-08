@@ -35,7 +35,18 @@
 
 .doc.doc h1 {
   color: var(--heading-h1-font-color);
+  font-weight: var(--heading-h1-font-weight);
 }
+
+.doc h2 {
+  text-shadow: 2px 2px rgb(215 252 112 / 15%);
+}
+
+.doc.doc h3 {
+  color: var(--heading-h3-font-color);
+  text-shadow: 2px 2px rgb(0 0 0 / 25%);
+}
+
 
 .doc > h1.page:first-child {
   font-size: calc(36 / var(--rem-base) * 1rem);

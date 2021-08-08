@@ -303,6 +303,7 @@
 }
 
 .nav-panel-explore .component .is-current a {
+  color: var(--color-bbeeff);
   border-color: currentColor;
   opacity: 0.9;
   font-weight: var(--body-font-weight-bold);
