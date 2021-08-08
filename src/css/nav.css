@@ -302,6 +302,10 @@
   display: inherit;
 }
 
+.nav-panel-explore .component.is-current a.title {
+  color: var(--color-bbeeff);
+}
+
 .nav-panel-explore .component .is-current a {
   color: var(--color-bbeeff);
   border-color: currentColor;
