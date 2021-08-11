@@ -124,7 +124,7 @@
   --caption-font-color: var(--color-8b8685);
   --caption-font-weight: var(--body-font-weight-bold);
   --code-background: var(--panel-background);
-  --code-font-color: var(--body-font-color);
+  --code-font-color: #e9d7c5;
   --example-background: var(--panel-background);
   --example-border-color: var(--panel-border-color);
   --kbd-background: var(--panel-background);

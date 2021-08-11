@@ -43,6 +43,11 @@ code,
 kbd,
 pre {
   font-family: var(--monospace-font-family);
+  color: var(--code-font-color);
+}
+
+a > code {
+  color: inherit;
 }
 
 b,
