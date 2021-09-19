@@ -40,6 +40,13 @@ https://example.org[`code` in link.]
 }
 ----
 
+[source,typescript]
+----
+interface Test {
+  a: string
+}
+----
+
 .Example paragraph syntax
 [,asciidoc]
 ----
