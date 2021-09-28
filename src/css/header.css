@@ -69,7 +69,7 @@ body {
 }
 
 #search .query {
-  border: 0px solid var(--navbar-button-border-color);
+  border: 0 solid var(--navbar-button-border-color);
   background: transparent;
   color: inherit;
   font-family: inherit;
@@ -91,7 +91,7 @@ body {
 }
 
 #search .filter {
-  border: 0px solid var(--navbar-button-border-color);
+  border: 0 solid var(--navbar-button-border-color);
   border-left: none;
   border-radius: 0 0.1em 0.1em 0;
   color: var(--toolbar-font-color);

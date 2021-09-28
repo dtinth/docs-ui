@@ -133,41 +133,51 @@
 }
 
 /* Colors */
-.algolia-autocomplete.algolia-autocomplete .ds-dropdown-menu:before {
+.algolia-autocomplete.algolia-autocomplete .ds-dropdown-menu::before {
   background: var(--navbar-background);
 }
+
 .algolia-autocomplete.algolia-autocomplete .algolia-docsearch-suggestion--category-header {
   color: #bef;
 }
+
 .algolia-autocomplete.algolia-autocomplete .algolia-docsearch-suggestion--title {
   color: #e9e8e7;
 }
+
 .algolia-autocomplete.algolia-autocomplete .algolia-docsearch-suggestion--highlight {
   color: #d7fc70;
 }
+
 .algolia-autocomplete.algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column,
 .algolia-autocomplete.algolia-autocomplete .algolia-docsearch-suggestion--text,
 .algolia-autocomplete.algolia-autocomplete .ds-pagination {
   color: #8b8685;
 }
+
 .algolia-autocomplete.algolia-autocomplete .ds-pagination a {
   color: var(--link-font-color);
 }
+
 .algolia-autocomplete.algolia-autocomplete .algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--category-header-lvl0 .algolia-docsearch-suggestion--highlight,
 .algolia-autocomplete.algolia-autocomplete .algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--category-header-lvl1 .algolia-docsearch-suggestion--highlight {
   box-shadow: inset 0 -2px 0 0 #bef8;
 }
+
 .algolia-autocomplete.algolia-autocomplete .algolia-docsearch-suggestion--category-header,
 .algolia-autocomplete.algolia-autocomplete .ds-footer {
   border-color: var(--navbar-button-border-color);
 }
-.algolia-autocomplete.algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column:before,
-.algolia-autocomplete.algolia-autocomplete .algolia-docsearch-suggestion--content:before {
+
+.algolia-autocomplete.algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column::before,
+.algolia-autocomplete.algolia-autocomplete .algolia-docsearch-suggestion--content::before {
   background-color: var(--navbar-button-border-color);
 }
+
 .algolia-autocomplete.algolia-autocomplete .ds-dropdown-menu .ds-suggestion.ds-cursor .algolia-docsearch-suggestion.suggestion-layout-simple {
   background-color: #353433;
 }
+
 .algolia-autocomplete.algolia-autocomplete .ds-dropdown-menu .ds-suggestion.ds-cursor .algolia-docsearch-suggestion:not(.suggestion-layout-simple) .algolia-docsearch-suggestion--content {
   background-color: #353433;
 }
