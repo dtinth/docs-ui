@@ -59,6 +59,9 @@ body {
 }
 
 #search {
+  background: linear-gradient(rgb(21, 20, 19), rgb(41, 40, 39)) rgb(37, 36, 35);
+  border: 1px solid #454443;
+  border-radius: 0.25rem;
   display: flex;
   position: relative; /* make results relative to whole search field, not just input */
   color: var(--body-font-color);
@@ -66,7 +69,8 @@ body {
 }
 
 #search .query {
-  border: 1px solid var(--navbar-button-border-color);
+  border: 0px solid var(--navbar-button-border-color);
+  background: transparent;
   color: inherit;
   font-family: inherit;
   font-size: inherit;
@@ -87,8 +91,7 @@ body {
 }
 
 #search .filter {
-  background: var(--color-white) linear-gradient(to bottom, var(--navbar-button-border-color) 0%, var(--navbar-button-border-color) 100%) no-repeat left center / 1px 50%;
-  border: 1px solid var(--navbar-button-border-color);
+  border: 0px solid var(--navbar-button-border-color);
   border-left: none;
   border-radius: 0 0.1em 0.1em 0;
   color: var(--toolbar-font-color);
